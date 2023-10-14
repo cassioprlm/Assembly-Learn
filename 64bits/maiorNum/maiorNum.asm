@@ -13,8 +13,8 @@ segment .data ;segment é uma parte do código
         STDIN           equ 0   ; Entrada STDIN
 
 section .data
-	x dd 10001 ;dd = define double word
-	y dd 10000 ;dd = define double word
+	x dd 61 ;dd = define double word
+	y dd 60 ;dd = define double word
 	msg1 db "X maior que Y", LF, NULL
 	len1 equ $- msg1
 	msg2 db "Y maior que X", LF, NULL
